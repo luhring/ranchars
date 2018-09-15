@@ -1,7 +1,8 @@
 # Ranchars
 
-[![CircleCI](https://circleci.com/gh/luhring/ranchars/tree/master.svg?style=svg)](https://circleci.com/gh/luhring/ranchars/tree/master)
+[![Build Status](https://circleci.com/gh/luhring/ranchars.svg?style=shield)](https://circleci.com/gh/luhring/ranchars)
 [![Go Report Card](https://goreportcard.com/badge/github.com/luhring/ranchars)](https://goreportcard.com/report/github.com/luhring/ranchars)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Ran(dom) char(acter)s
 
