@@ -94,9 +94,12 @@ func doesFlagBeginWithSingleDash(argument string) bool {
 const helpText = `
 Usage:  ranchars [options] length
 
-Generates a string of random characters that meets the specified criteria, of a specified length. With no options specified, the output string will contain lowercase letters, uppercase letters, and numeric digits.
+Generates a string of random characters that meets the specified criteria, of a specified length.
+Ranchars generates a string of random characters that satisfies a set of specified criteria, of a specified length.
 
-'length' must be a positive integer. 'length' must also be greater than or equal to the specified number of character types. For example, it is impossible to generate a 3-character string that includes at least one numeric digit, special character, lowercase letter, and uppercase letter.
+With no options specified, the output string will contain lowercase letters, uppercase letters, and numeric digits.
+
+'length' must be a positive integer. 'length' must also be greater than or equal to the specified number of character types. For example, it is impossible to generate a 3-character string that includes at least one of each of the following: numeric digit, special character, lowercase letter, and uppercase letter.
 
 Options:
   -d	Include numeric digits (0-9)
