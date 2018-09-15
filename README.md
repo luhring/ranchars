@@ -95,7 +95,7 @@ $ ranchars 32
 
 ## Randomness
 
-Ranchars uses Go's `crypto/rand` package. It's designed to be acceptable for contexts that require cryptographically secure randomness.
+Ranchars uses Go's `crypto/rand` package. Ranchars is safe to use in contexts that require cryptographically secure random values.
 
 From Go's [documentation](https://golang.org/pkg/crypto/rand/) on the `crypto/rand` package:
 
