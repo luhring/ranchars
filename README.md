@@ -6,7 +6,7 @@ Ranchars generates a string of [random](##randomness) characters that satisfies 
 
 ## Basic usage
 
-The `ranchars` command always takes at least one argument to specify how many character long the random string should be.
+The `ranchars` command always takes at least one argument to specify how many characters long the random string should be.
 
 ```
 $ ranchars 16
