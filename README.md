@@ -1,10 +1,11 @@
 # Ranchars
 
+[![CircleCI](https://circleci.com/gh/luhring/ranchars/tree/master.svg?style=svg)](https://circleci.com/gh/luhring/ranchars/tree/master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/luhring/ranchars)](https://goreportcard.com/report/github.com/luhring/ranchars)
+
 Ran(dom) char(acter)s
 
 Ranchars generates a string of [random](##randomness) characters that satisfies a set of specified criteria, of a specified length.
-
-[![Go Report Card](https://goreportcard.com/badge/github.com/luhring/ranchars)](https://goreportcard.com/report/github.com/luhring/ranchars)
 
 ## Basic usage
 
