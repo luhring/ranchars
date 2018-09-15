@@ -1,8 +1,4 @@
-# Ranchars
-
-[![Build Status](https://circleci.com/gh/luhring/ranchars.svg?style=shield)](https://circleci.com/gh/luhring/ranchars)
-[![Go Report Card](https://goreportcard.com/badge/github.com/luhring/ranchars)](https://goreportcard.com/report/github.com/luhring/ranchars)
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Ranchars [![Go Report Card](https://goreportcard.com/badge/github.com/luhring/ranchars)](https://goreportcard.com/report/github.com/luhring/ranchars) [![CircleCI](https://circleci.com/gh/luhring/ranchars.svg?style=shield&circle-token=5ef0509f7bbd8c8c8fddce17059bdf62056b8d88)](https://circleci.com/gh/luhring/ranchars) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Ran(dom) char(acter)s
 
