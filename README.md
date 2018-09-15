@@ -4,6 +4,8 @@ Ran(dom) char(acter)s
 
 Ranchars generates a string of [random](##randomness) characters that satisfies a set of specified criteria, of a specified length.
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/luhring/ranchars)](https://goreportcard.com/report/github.com/luhring/ranchars)
+
 ## Basic usage
 
 The `ranchars` command always takes at least one argument to specify how many character long the random string should be.
