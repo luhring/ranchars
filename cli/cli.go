@@ -94,8 +94,7 @@ func doesFlagBeginWithSingleDash(argument string) bool {
 const helpText = `
 Usage:  ranchars [options] length
 
-Generates a string of random characters that meets the specified criteria, of a specified length.
-Ranchars generates a string of random characters that satisfies a set of specified criteria, of a specified length.
+Generates a string of random characters that satisfies a set of specified criteria, of a specified length.
 
 With no options specified, the output string will contain lowercase letters, uppercase letters, and numeric digits.
 
