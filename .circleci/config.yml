@@ -18,4 +18,4 @@ jobs:
       - checkout
 
       # specify any bash command here prefixed with `run: `
-      - run: go build
+      - run: go build -o "ranchars-ci-build"
