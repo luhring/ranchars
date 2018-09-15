@@ -13,14 +13,14 @@ $ ranchars 16
 8rvSlZxZRhvImQGM
 ```
 
-## More detailed usage notes
+## Character types
 
 Ranchars generates characters in terms of character types. There are five types of characters used:
 
 1. Numeric digits (0-9)
 1. Lowercase letters (a-z)
 1. Uppercase letters (A-Z)
-1. Special characters (see below for exact set)
+1. Special characters (set defined in [Special characters](###-special-characters))
 1. The space character
 
 By default, Ranchars uses numeric digits, lowercase letters, and uppercase letters. Strings composed of these types are easy to select in most text environments, since they aren't broken into chunks by special characters or spaces.
@@ -52,13 +52,46 @@ $ ranchars -cld 8
 
 `-L` Include both lowercase and uppercase letters (a shortcut for specifying both `-l` and `-u`)
 
-`-c` Include special characters
+`-c` Include special characters (see [Special characters](###-special-characters))
 
 `-s` Include the space character
 
 `-a` Include all kinds of characters (equivalent to specifying `-d`, `-l`, `-u`, `-c`, and `-s`)
 
 `-n` Omit trailing newline character from output
+
+### Special characters
+
+The "special characters" type refers to this set of characters:
+
+``!"#$%&'()*+,-./:;<=>?@[]^_`{\}~``
+
+Backslashes (`\`) are omitted from the set to avoid accidental character escaping.
+
+The space character is considered a distinct character type to make it easier to generate random strings with a large character space but without spaces.
+
+### Examples
+
+Generate a random 6-digit number:
+
+```
+$ ranchars -d 6
+492029
+```
+
+Generate a random string of 20 characters that includes numbers, letters of both cases, and special characters.
+
+```
+$ ranchars -dLc 20
+DATkFzLT)A=Ec1["wEFc
+```
+
+Generate a random string of 32 characters that includes numbers and letters of both cases. (This is the set of character types implicitly specified if no options for character types are used.)
+
+```
+$ ranchars 32
+6wmK9s8xpZbGzJBIt9IcvNtejHJJvnPU
+```
 
 ## Randomness
 
@@ -83,3 +116,4 @@ To generate a string of random characters, Ranchars follows the following proces
 1. If this test passes, the string is returned to the user.
 
 1. If this test fails, the string is discarded, and the process starts again from the first step.
+
