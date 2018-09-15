@@ -16,3 +16,4 @@ jobs:
 
       - store_artifacts:
           path: release/
+          destination: release/
