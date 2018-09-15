@@ -1,6 +1,6 @@
 BINARY := ranchars
 VERSION := 0.1.0
-FULL_VERSION := $(VERSION)$(CIRCLE_BUILD_NUM)
+FULL_VERSION := $(VERSION).$(CIRCLE_BUILD_NUM)
 
 .PHONY: windows
 windows:
